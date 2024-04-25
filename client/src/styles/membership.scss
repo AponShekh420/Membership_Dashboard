@@ -1,0 +1,36 @@
+.membership-container {
+  width: 100%;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  .page-heading {
+    font-size: 33px;
+    font-weight: 600;
+  }
+  .btn-box {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .tableHeader{
+    width: 100%;
+  }
+  .users-counter {
+    font-size: x-large;
+    font-weight: 600;
+    span {
+      color: #31B0E6 ;
+    }
+  }
+  .tableFilter {
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+  }
+  @media only screen and (max-width: 700px){
+    
+  }
+}
+
